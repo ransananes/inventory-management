@@ -16,3 +16,4 @@ class TypeValidator:
     def validate_num(value, context=""):
         if not isinstance(value, (int, float)):
             raise TypeError(f"{context} error: {value} must be a number.")
+        
