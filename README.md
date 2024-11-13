@@ -7,5 +7,8 @@ A simple inventory management system in Python.
 - **Retrieve** - Get a product from the inventory.
 - **Other** - perform other operations on products
 
+## Installation : 
+- pip install -r requirements.txt
+
 ## Testing :
 Testing coverage using pytest
