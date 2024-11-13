@@ -1,4 +1,3 @@
-from multiprocessing.sharedctypes import Value
 from src.validators.product_validator import ProductValidator
 
 

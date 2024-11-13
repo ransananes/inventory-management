@@ -9,7 +9,7 @@ class Product:
     - quantity (int) => quantity of product in stock
     - price (float) => price per unit
     """
-    def __init__(self, name, quantity, price):
+    def __init__(self, name: str, quantity: int, price: Union[int, float]):
         self.__set_name(name)
         self.__set_quantity(quantity)
         self.__set_price(price)
