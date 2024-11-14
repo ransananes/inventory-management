@@ -9,7 +9,7 @@ A simple inventory management system in Python.
 
 ## Installation : 
 - Python >= 3.5
-- `pip install -r requirements.txt`
+- pytest
 
 ## Testing :
 run testing on "pytest"
