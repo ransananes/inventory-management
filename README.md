@@ -8,7 +8,9 @@ A simple inventory management system in Python.
 - **Other** - perform other operations on products
 
 ## Installation : 
-- pip install -r requirements.txt
+- Python >= 3.5
+- `pip install -r requirements.txt`
 
 ## Testing :
-Testing coverage using pytest
+run testing on "pytest"
+`pytest tests/`
