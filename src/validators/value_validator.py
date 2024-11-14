@@ -1,6 +1,7 @@
 class ValueValidator:
     """
-        Value Validator => validate data values
+        Value Validator
+            - validate_non_negative - validate if value is positive
     """
     @staticmethod
     def validate_non_negative(value, context: str=""):

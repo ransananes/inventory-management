@@ -2,7 +2,9 @@ from src.product import Product
 
 class ProductValidator:
     """
-        Product Validator => validate if instance is product
+        Product Validator 
+            - validate_product -> validate if instance is product
+            - validate_existance_product -> check if product already exists
     """
     @staticmethod
     def validate_product(value: str, context: str=""):

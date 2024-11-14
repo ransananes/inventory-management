@@ -2,7 +2,10 @@
 
 class TypeValidator:
     """
-        Type Validator => validate data type
+        Type Validator 
+            - validate_str => validate if value is string
+            - validate_integer => validate if value is integer
+            - validate_num => validate if value is a number (float/int)
     """
     @staticmethod
     def validate_str(value: str, context:str = ""):
