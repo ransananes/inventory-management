@@ -14,5 +14,8 @@ class ProductValidator:
     @staticmethod 
     def validate_existance_product(product : Product, product_list : list):
         if product in product_list:
-            raise ValueError(f"Product '{product.name}' already exists in the inventory.")    
+            raise ValueError(f"Product '{product.name}' already exists in the inventory.")  
+        for _product in product_list:
+            if product.name == _product.name:
+                raise ValueError(f"Product '{product.name}' already exists in the inventory.") 
 
